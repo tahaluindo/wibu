@@ -1,0 +1,158 @@
+<html lang="en" class="hydrated"><head><meta charset="UTF-8"><style data-styles="">ion-icon{visibility:hidden}.hydrated{visibility:inherit}</style><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="viewport" content="width=device-width,user-scalable=no"><meta http-equiv="X-UA-Compatible" content="ie=edge"><link rel="shortcut icon" href="assets/images/icons/fav*32.png" type="image/x-icon"><link rel="stylesheet" href="/assets/css/bootstrap.css"><link rel="stylesheet" href="/assets/css/slick.css"><link rel="stylesheet" href="/assets/css/slick-theme.css"><link rel="stylesheet" href="node_modules/remixicon/fonts/remixicon.css"><link rel="stylesheet" href="/assets/scss/style.min.css"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="manifest" href="/site.webmanifest"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#1baaa0"><meta name="apple-mobile-web-app-title" content="Twibbonize"><meta name="application-name" content="Twibbonize"><meta name="msapplication-TileColor" content="#1baaa0"><meta name="theme-color" content="#1baaa0"><title>Wibucode (Katakana)</title><meta name="description" content="From movements tackling huge, serious causes — to anything just for fun, you can always take your part in anything with Twibbonize."><meta name="keywords" content="Twibbon, Campaign, Frame"><base href="/"><link href="/css/app.5d03e511.css" rel="preload" as="style"><link href="/css/chunk-vendors.d3ac3f59.css" rel="preload" as="style"><link href="/js/app.38a9cbde.js" rel="preload" as="script"><link href="/js/chunk-vendors.1d4dedd0.js" rel="preload" as="script"><link href="/css/chunk-vendors.d3ac3f59.css" rel="stylesheet"><link href="/css/app.5d03e511.css" rel="stylesheet"><script src="https://partner.googleadservices.com/gampad/cookie.js?domain=www.twibbonize.com&amp;callback=_gfp_s_&amp;client=ca-pub-3785389902934745&amp;cookie=ID%3Df60037a6ea8c3bd0-22d99f6d78cc007e%3AT%3D1637398017%3ART%3D1637398017%3AS%3DALNI_MbRz3Iug6qBqu9jPLruVQPLR-i23A"></script><script src="https://pagead2.googlesyndication.com/pagead/managed/js/adsense/m202111110101/show_ads_impl_fy2019.js" id="google_shimpl"></script><script src="https://js.hs-analytics.net/analytics/1637400300000/8533503.js" type="text/javascript" id="hs-analytics"></script><script src="https://js.hs-banner.com/8533503.js" type="text/javascript" id="cookieBanner-8533503" data-cookieconsent="ignore" data-hs-ignore="true" data-loader="hs-scriptloader" data-hsjs-portal="8533503" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script src="https://js.hscollectedforms.net/collectedforms.js" type="text/javascript" id="CollectedForms-8533503" crossorigin="anonymous" data-leadin-portal-id="8533503" data-leadin-env="prod" data-loader="hs-scriptloader" data-hsjs-portal="8533503" data-hsjs-env="prod" data-hsjs-hublet="na1"></script><script type="module" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.esm.js" data-stencil-namespace="ionicons"></script><script nomodule="" src="https://unpkg.com/ionicons@5.0.0/dist/ionicons/ionicons.js" data-stencil-namespace="ionicons"></script><style type="text/css">
+.vue-modal-resizer {
+  display: block;
+  overflow: hidden;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  right: 0;
+  bottom: 0;
+  z-index: 9999999;
+  background: transparent;
+  cursor: se-resize;
+}
+.vue-modal-resizer::after {
+  display: block;
+  position: absolute;
+  content: '';
+  background: transparent;
+  left: 0;
+  top: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #ddd;
+  border-left: 10px solid transparent;
+}
+.vue-modal-resizer.clicked::after {
+  border-bottom: 10px solid #369be9;
+}
+</style><style type="text/css">
+.vm--block-scroll {
+  overflow: hidden;
+  width: 100vw;
+}
+.vm--container {
+  position: fixed;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+}
+.vm--overlay {
+  position: fixed;
+  box-sizing: border-box;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.2);
+  /* z-index: 999; */
+  opacity: 1;
+}
+.vm--container.scrollable {
+  height: 100%;
+  min-height: 100vh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.vm--modal {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 20px 60px -2px rgba(27, 33, 58, 0.4);
+}
+.vm--container.scrollable .vm--modal {
+  margin-bottom: 2px;
+}
+.vm--top-right-slot {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.vm-transition--overlay-enter-active,
+.vm-transition--overlay-leave-active {
+  transition: all 50ms;
+}
+.vm-transition--overlay-enter,
+.vm-transition--overlay-leave-active {
+  opacity: 0;
+}
+.vm-transition--modal-enter-active,
+.vm-transition--modal-leave-active {
+  transition: all 400ms;
+}
+.vm-transition--modal-enter,
+.vm-transition--modal-leave-active {
+  opacity: 0;
+  transform: translateY(-20px);
+}
+.vm-transition--default-enter-active,
+.vm-transition--default-leave-active {
+  transition: all 2ms;
+}
+.vm-transition--default-enter,
+.vm-transition--default-leave-active {
+  opacity: 0;
+}
+</style><style type="text/css">
+.vue-dialog {
+  font-size: 14px;
+}
+.vue-dialog div {
+  box-sizing: border-box;
+}
+.vue-dialog-content {
+  flex: 1 0 auto;
+  width: 100%;
+  padding: 14px;
+}
+.vue-dialog-content-title {
+  font-weight: 600;
+  padding-bottom: 14px;
+}
+.vue-dialog-buttons {
+  display: flex;
+  flex: 0 1 auto;
+  width: 100%;
+  border-top: 1px solid #eee;
+}
+.vue-dialog-buttons-none {
+  width: 100%;
+  padding-bottom: 14px;
+}
+.vue-dialog-button {
+  font-size: inherit;
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  line-height: 40px;
+  height: 40px;
+  color: inherit;
+  font: inherit;
+  outline: none;
+}
+.vue-dialog-button:hover {
+  background: #f9f9f9;
+}
+.vue-dialog-button:active {
+  background: #f3f3f3;
+}
+.vue-dialog-button:not(:first-of-type) {
+  border-left: 1px solid #eee;
+}
+</style><link href="https://www.google-analytics.com" rel="preconnect"><script async="" src="https://www.google-analytics.com/analytics.js" charset="utf-8"></script><link rel="stylesheet" type="text/css" href="/css/campaign~campaign-bank-dki~campaign-dki-494~campaign-generasi-terampil~campaign-hut-ri~campaign-mask~624de400.233c382d.css"><script charset="utf-8" src="/js/campaign~campaign-bank-dki~campaign-dki-494~campaign-generasi-terampil~campaign-hut-ri~campaign-mask~624de400.d45e1c51.js"></script><link rel="stylesheet" type="text/css" href="/css/campaign.68e4ca24.css"><script charset="utf-8" src="/js/campaign.90de2212.js"></script><meta data-vue-meta="1" property="og:site_name" content="Twibbonize"><meta data-vue-meta="1" property="og:type" content="website"><meta data-vue-meta="1" name="robots" content="index,follow"><meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=www.twibbonize.com" as="script"><script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=www.twibbonize.com"></script><meta data-vue-meta="1" name="description" content=""><meta data-vue-meta="1" property="og:title" content="Wibucode (Katakana)"><meta data-vue-meta="1" name="twitter:description" content=""></head><body><div></div><noscript><strong>Twibbonize | Where campaigns meet you!</strong></noscript><div id="app" style="height: auto !important;"><div class="hero_page bg-like-navbar"><div class="site-header has_link_dark"><!----></div><!----></div><div class="campaign__page" style="height: auto !important; min-height: 0px !important;"><div class="rev__container container d-flex flex-column align-items-center p-0"><div id="0" class="rev__slot d-flex flex-column col-md-8 col-lg-6 justify-content-center p-0"><div class="adswrapper" style="background-color: rgb(216, 240, 240);"> <ins data-ad-client="ca-pub-3785389902934745" data-ad-slot="9139890903" data-ad-test="" data-ad-format="horizontal" data-full-width-responsive="true" class="adsbygoogle" style="display: block; height: 100px;" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_0_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 100px; width: 492px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_0_anchor" style="border: none; height: 100px; width: 492px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: visible;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:492px;height:100px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="492" height="100" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3785389902934745&amp;output=html&amp;h=100&amp;slotname=9139890903&amp;adk=3701692417&amp;adf=1575042302&amp;pi=t.ma~as.9139890903&amp;w=492&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1635849762&amp;rafmt=2&amp;psa=1&amp;format=492x100&amp;url=https%3A%2F%2Fwww.twibbonize.com%2Fwibucode-katakana&amp;flash=0&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=2&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMy4wLjAiLCJ4ODYiLCIiLCI5Ni4wLjQ2NjQuNDUiLFtdLG51bGwsbnVsbCwiNjQiXQ..&amp;dt=1637400590935&amp;bpp=7&amp;bdt=2058&amp;idt=131&amp;shv=r20211111&amp;mjsv=m202111110101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Df60037a6ea8c3bd0-22d99f6d78cc007e%3AT%3D1637398017%3ART%3D1637398017%3AS%3DALNI_MbRz3Iug6qBqu9jPLruVQPLR-i23A&amp;correlator=8533105028472&amp;frm=20&amp;pv=2&amp;ga_vid=1311810587.1637398016&amp;ga_sid=1637400591&amp;ga_hid=2009077153&amp;ga_fc=1&amp;u_tz=0&amp;u_his=3&amp;u_h=600&amp;u_w=1064&amp;u_ah=560&amp;u_aw=1064&amp;u_cd=24&amp;dmc=4&amp;adx=0&amp;ady=0&amp;biw=492&amp;bih=489&amp;scr_x=0&amp;scr_y=0&amp;eid=44754332%2C31063245&amp;oid=2&amp;pvsid=2624149470910074&amp;pem=295&amp;tmod=1974313635&amp;eae=0&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1064%2C0%2C1064%2C560%2C509%2C489&amp;vis=1&amp;rsz=%7C%7CeE%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;ifi=1&amp;uci=a!1&amp;fsb=1&amp;xpc=5Wbb44GRhn&amp;p=https%3A//www.twibbonize.com&amp;dtd=161" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!1" data-google-query-id="COLq3MTQpvQCFUOPAAAd3F0LSg" data-load-complete="true"></iframe></ins></ins></ins> <!----> <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" type="text/javascript"></script><script type="text/javascript">
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script></div></div><div id="1" class="rev__slot d-flex flex-column col-md-8 col-lg-6 justify-content-center p-0"><!----></div><div id="2" class="rev__slot d-flex flex-column col-md-8 col-lg-6 justify-content-center p-0"><!----></div><div id="3" class="rev__slot d-flex flex-column col-md-8 col-lg-6 justify-content-center p-0"><!----></div></div><div class="container d-flex flex-column align-items-center p-0"><div class="d-flex flex-column col-md-8 col-lg-6 justify-content-center align-items-center mb-2"><img src="https://di8f64wxtiymb.cloudfront.net/ee3ab857-83b8-4366-9d63-11628745a853.jpg?fCwr" alt="Irvan Moses" class="avatar rounded-circle campaign__avatar rounded-circle avatar-undefined" style="display: block; background: rgb(255, 255, 255);"><h6 class="campaign__creator text-center">Irvan Moses</h6><h3 class="campaign__name text-center mt-1"> Wibucode (Katakana) </h3><div class="d-flex justify-content-center mt-2"><div class="d-flex align-items-center mr-2"><ion-icon name="people" class="campaign__icon mr-1 md hydrated" role="img" aria-label="people"></ion-icon><p class="campaign__detail m-0">425 supports</p></div><div class="d-flex align-items-center"><ion-icon name="time" class="campaign__icon mr-1 md hydrated" role="img" aria-label="time"></ion-icon><p class="campaign__detail m-0">1 month ago</p></div></div><div class="d-flex justify-content-center align-items-center mt-3"><div class="campaign__share d-flex align-items-center"><img src="assets/images/icons/link-outline.svg" alt="share-icon" class="mr-2"><span style="max-width: 230px;">twb.nz/wibucode-katakana</span></div></div><!----></div><div id="twibbon" class="col-md-8 col-lg-6 mt-20 mb-20"><div style="background-color: rgb(255, 255, 255); border-radius: 10px; padding: 15px;"><div style="display: flex; width: 100%;"><div class="position-bar" style="display: flex; border-radius: 5px; height: 5px; background: rgb(27, 170, 160); width: 100%; opacity: 1;"></div><div class="position-bar" style="display: flex; border-radius: 5px; height: 5px; background: rgb(27, 170, 160); width: 100%; opacity: 0.2;"></div><div class="position-bar" style="display: flex; border-radius: 5px; height: 5px; background: rgb(27, 170, 160); width: 100%; opacity: 0.2;"></div><div class="position-bar" style="display: flex; border-radius: 5px; height: 5px; background: rgb(27, 170, 160); width: 100%; opacity: 0.2;"></div></div><div class="twibbon__tooltip d-flex p-0" style="border-radius: 5px; margin-top: 15px;"><img src="/assets/images/icons/tip-icon.svg" alt="Tip Icon" class="d-flex align-items-start m-0 p-0 h-100" style="opacity: 0.5;"><div class="d-flex align-items-center"><p class="my-1 ml-2 mr-2" style="font-size: 0.875rem;"> Use this photo filter and share it on your social media! </p><!----><!----><!----></div></div><div class="twibbon__container" style="height: 377px;"><div style="margin: 5px; position: relative;"><img src="https://dx18b9yoyun92.cloudfront.net/0f50122c-5f19-4a66-bf28-5d078ef6f5c7.png?ccl7" class="twibbon__frame" style="z-index: 1; pointer-events: none; position: absolute; top: 5px; left: 0px; width: 100%; opacity: 1;"><!----></div><!----><img src="https://dx18b9yoyun92.cloudfront.net/0f50122c-5f19-4a66-bf28-5d078ef6f5c7.png?ccl7" alt="imageFrame" style="pointer-events: none; position: absolute; top: 0px; left: 0px; border-radius: 10px; background: rgb(245, 245, 245); width: 100%; z-index: 10; opacity: 1;"><!----><!----><!----><!----><!----></div><!----><div class="twibbon__button"><input id="uploadPhoto" hidden="hidden" type="file"><div class="d-flex"><button class="twb-btn twb-btn--primary flex--1"><ion-icon name="camera" role="img" class="md hydrated" aria-label="camera" style="font-size: 24px; margin-right: 4px;"></ion-icon> Choose a Photo </button></div><!----><!----><!----><!----><!----></div><!----></div></div></div><div class="campaign__footer d-flex flex-column justify-content-center pt-20 pb-50"><div class="d-flex justify-content-center mb-30"><a href="/" class="router-link-active"><img src="/assets/images/logos/powered-by-twibbonize-en.svg" alt="powered by twibbonize"></a></div><div class="d-flex align-items-center"><p class="d-flex justify-content-center mb-30 pointer"><ion-icon name="globe-outline" class="select-language__icon mr-1 md hydrated" role="img" aria-label="globe outline"></ion-icon><span class="select-language__text">English</span></p></div><div class="d-flex justify-content-center"><a href="#" class="d-flex align-items-center justify-content-center"><ion-icon name="flag" class="mr-1 md hydrated" role="img" aria-label="flag"></ion-icon><span>Report</span></a><a href="/signup" class="" target="_blank">Create a Campaign</a></div><div class="d-flex justify-content-center"><a href="https://support.twibbonize.com/hc/en-us" target="_blank">Help Center</a><a href="/terms" class="" target="_blank">Terms</a><a href="/privacy-policy" class="" target="_blank">Privacy Policy</a></div></div><div class="rev__container container  d-flex flex-column align-items-center"><div id="0" class="rev-slot d-flex flex-column col-md-8 col-lg-6 justify-content-center p-0"><div class="adswrapper" style="background-color: rgb(216, 240, 240);"> <ins data-ad-client="ca-pub-3785389902934745" data-ad-slot="4493549677" data-ad-test="" data-ad-format="auto" data-full-width-responsive="true" class="adsbygoogle" style="display: block; height: 280px;" data-adsbygoogle-status="done" data-ad-status="filled"><ins id="aswift_1_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 280px; width: 492px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_1_anchor" style="border: none; height: 280px; width: 492px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block; overflow: visible;"><iframe id="aswift_1" name="aswift_1" style="left:0;position:absolute;top:0;border:0;width:492px;height:280px;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" width="492" height="280" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3785389902934745&amp;output=html&amp;h=280&amp;slotname=4493549677&amp;adk=2564824203&amp;adf=511171413&amp;pi=t.ma~as.4493549677&amp;w=492&amp;fwrn=4&amp;fwrnh=100&amp;lmt=1635849762&amp;rafmt=1&amp;psa=1&amp;format=492x280&amp;url=https%3A%2F%2Fwww.twibbonize.com%2Fwibucode-katakana&amp;flash=0&amp;fwr=0&amp;fwrattr=true&amp;rpe=1&amp;resp_fmts=3&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMy4wLjAiLCJ4ODYiLCIiLCI5Ni4wLjQ2NjQuNDUiLFtdLG51bGwsbnVsbCwiNjQiXQ..&amp;dt=1637400590942&amp;bpp=1&amp;bdt=2065&amp;idt=372&amp;shv=r20211111&amp;mjsv=m202111110101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Df60037a6ea8c3bd0-22d99f6d78cc007e%3AT%3D1637398017%3ART%3D1637398017%3AS%3DALNI_MbRz3Iug6qBqu9jPLruVQPLR-i23A&amp;prev_fmts=492x100&amp;correlator=8533105028472&amp;frm=20&amp;pv=1&amp;ga_vid=1311810587.1637398016&amp;ga_sid=1637400591&amp;ga_hid=2009077153&amp;ga_fc=1&amp;u_tz=0&amp;u_his=4&amp;u_h=600&amp;u_w=1064&amp;u_ah=560&amp;u_aw=1064&amp;u_cd=24&amp;dmc=4&amp;adx=0&amp;ady=1208&amp;biw=492&amp;bih=489&amp;scr_x=0&amp;scr_y=0&amp;eid=44754332%2C31063245&amp;oid=2&amp;pvsid=2624149470910074&amp;pem=295&amp;tmod=1974313635&amp;eae=0&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1064%2C0%2C1064%2C560%2C509%2C489&amp;vis=1&amp;rsz=%7C%7CeEbr%7C&amp;abl=CS&amp;pfx=0&amp;fu=128&amp;bc=31&amp;ifi=2&amp;uci=a!2&amp;btvi=1&amp;fsb=1&amp;xpc=5uVMsxrtuX&amp;p=https%3A//www.twibbonize.com&amp;dtd=384" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!2" data-google-query-id="CLDm7cTQpvQCFTuqAAAd9UsGDg" data-load-complete="true"></iframe></ins></ins></ins> <!----> <script type="text/javascript">
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script></div></div><div id="1" class="rev-slot d-flex flex-column col-md-8 col-lg-6 justify-content-center p-0"><!----></div><div id="2" class="rev-slot d-flex flex-column col-md-8 col-lg-6 justify-content-center p-0"><!----></div><div id="3" class="rev-slot d-flex flex-column col-md-8 col-lg-6 justify-content-center p-0"><!----></div></div><!----><!----><!----></div><!----></div><script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script><script id="hs-script-loader" async="" defer="" src="//js.hs-scripts.com/8533503.js"></script><script>const fsWidgetConfig = {
+        id: "4de0fb4b-b9e2-4f31-9f78-cd1d5ab3c54a",
+      };</script><script type="module" src="https://cdn.freshstatus.io/widget/index.js"></script><script src="/js/chunk-vendors.1d4dedd0.js"></script><script src="/js/app.38a9cbde.js"></script><iframe owner="archetype" title="archetype" style="display: none; visibility: hidden;"></iframe><div id="modals-container"></div><ins class="adsbygoogle adsbygoogle-noablate" style="display: none !important;" data-adsbygoogle-status="done" data-ad-status="unfilled"><ins id="aswift_2_expand" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;" tabindex="0" title="Advertisement" aria-label="Advertisement"><ins id="aswift_2_anchor" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_2" name="aswift_2" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx;" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" src="https://googleads.g.doubleclick.net/pagead/ads?client=ca-pub-3785389902934745&amp;output=html&amp;adk=1812271804&amp;adf=3025194257&amp;lmt=1635849762&amp;plat=1%3A8%2C2%3A8%2C3%3A32%2C4%3A32%2C9%3A32776%2C16%3A8388608%2C17%3A32%2C24%3A32%2C25%3A32%2C30%3A1048576%2C32%3A32&amp;format=0x0&amp;url=https%3A%2F%2Fwww.twibbonize.com%2Fwibucode-katakana&amp;ea=0&amp;flash=0&amp;pra=7&amp;wgl=1&amp;uach=WyJXaW5kb3dzIiwiMy4wLjAiLCJ4ODYiLCIiLCI5Ni4wLjQ2NjQuNDUiLFtdLG51bGwsbnVsbCwiNjQiXQ..&amp;dt=1637400590960&amp;bpp=13&amp;bdt=2084&amp;idt=408&amp;shv=r20211111&amp;mjsv=m202111110101&amp;ptt=9&amp;saldr=aa&amp;abxe=1&amp;cookie=ID%3Df60037a6ea8c3bd0-22d99f6d78cc007e%3AT%3D1637398017%3ART%3D1637398017%3AS%3DALNI_MbRz3Iug6qBqu9jPLruVQPLR-i23A&amp;prev_fmts=492x100%2C492x280&amp;nras=1&amp;correlator=8533105028472&amp;frm=20&amp;pv=1&amp;ga_vid=1311810587.1637398016&amp;ga_sid=1637400591&amp;ga_hid=2009077153&amp;ga_fc=1&amp;u_tz=0&amp;u_his=4&amp;u_h=600&amp;u_w=1064&amp;u_ah=560&amp;u_aw=1064&amp;u_cd=24&amp;dmc=4&amp;adx=-12245933&amp;ady=-12245933&amp;biw=492&amp;bih=489&amp;scr_x=0&amp;scr_y=0&amp;eid=44754332%2C31063245&amp;oid=2&amp;pvsid=2624149470910074&amp;pem=295&amp;tmod=1974313635&amp;eae=2&amp;fc=896&amp;brdim=0%2C0%2C0%2C0%2C1064%2C0%2C1064%2C560%2C509%2C489&amp;vis=1&amp;rsz=%7C%7Cs%7C&amp;abl=NS&amp;fu=32768&amp;bc=31&amp;ifi=3&amp;uci=a!3&amp;fsb=1&amp;dtd=429" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" allowfullscreen="true" data-google-container-id="a!3" data-load-complete="true"></iframe></ins></ins></ins><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="https://googleads.g.doubleclick.net/pagead/html/r20211111/r20190131/zrt_lookup.html" style="display: none;"></iframe></html>
