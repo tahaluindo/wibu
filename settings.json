@@ -1,0 +1,43 @@
+{
+     "prefix": "!",
+     "namalu" : "Kris And Ahmad",
+     "nomerlu": "62895369318181",
+     "namabot": "THCA X SPL BOT",
+     "nomerbot": "62895369318181",
+     "gender" : "FEMALE",
+     "copyright" : "Hacktivis",
+     "Shopee" : "62895369318181",
+     "Gopay" : "62895369318181",
+     "Dana" : "62895369318181",
+     "Ovo" : "62895369318181",
+     "Antidel": true,
+     "Anticall": true,
+     "multi": true,
+     "onepref" : true,
+     "publik": true,
+     "forwarding": false,
+     "antitroli" : false,
+     "autovn" : true,
+     "autosticker" : true,
+     "autorespon" : true,
+     "autotyping" : false,
+     "autobio" : false,
+     "chatBot" : false,
+     "autoread" : true,
+     "autoblockcmd" : false,
+     "teksChat" : "Gada menu",
+     "totalForward" : 1000000,
+     "gamewaktu": 60,
+	"limitCount": 30,
+	"gcount": {
+		"prem": 30,
+		"user": 20
+},
+     "lolkey": "3a5fadc9dfb7b4b1f2a5a8e3",
+     "zeks": "officialdittaz", 
+     "xteam": "170342e43e147afa"
+     
+}
+
+   
+   
